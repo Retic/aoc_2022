@@ -11,7 +11,6 @@ pub fn solve_day_1_1(puzzle_input: &str) -> i32 {
             current_sum = 0;
         }
     }
-
     elves.iter().max().copied().unwrap_or(0)
 }
 
