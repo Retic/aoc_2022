@@ -134,7 +134,7 @@ pub fn solve_day_2_2(puzzle_input: &str) -> i32 {
 }
 
 #[cfg(test)]
-mod test2s {
+mod tests {
     use super::*;
 
     #[test]
